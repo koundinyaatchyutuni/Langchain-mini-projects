@@ -2,7 +2,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda
 from langchain_openai import ChatOpenAI
-from document_loader import PDFLoader
+from app.utils.document_loader import PDFLoader
 from dotenv import load_dotenv
 import os
 
